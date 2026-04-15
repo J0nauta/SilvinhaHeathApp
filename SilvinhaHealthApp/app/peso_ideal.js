@@ -10,7 +10,7 @@ ScrollView,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { calcularPesoIdeal } from '../utils/calculos';
-import BotaoVoltar from '../components/BotaoVoltar';
+import BotaoVoltar from '../componentes/BotaoVoltar';
 export default function PesoIdealScreen() {
 const [altura, setAltura] = useState('');
 const [sexo, setSexo] = useState(null);

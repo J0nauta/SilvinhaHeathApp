@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { calcularIMC } from '../utils/calculos';
-import BotaoVoltar from '../components/BotaoVoltar';
+import BotaoVoltar from '../componentes/BotaoVoltar';
 export default function ImcScreen() {
     const [peso, setPeso] = useState('');
     const [altura, setAltura] = useState('');

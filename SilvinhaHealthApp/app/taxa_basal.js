@@ -10,7 +10,7 @@ ScrollView,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { calcularTMB } from '../utils/calculos';
-import BotaoVoltar from '../components/BotaoVoltar';
+import BotaoVoltar from '../componentes/BotaoVoltar';
 export default function TmbScreen() {
 const [peso, setPeso] = useState('');
 const [altura, setAltura] = useState('');
